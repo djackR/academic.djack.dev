@@ -14,4 +14,18 @@
 <link rel="icon" href="/images/favicon.ico"/>
 <meta name="theme-color" content="#ffffff"/>
 
+<!-- Language detection and redirect -->
+<script>
+(function() {
+  var path = window.location.pathname;
+  // Only redirect on root page, and only if user hasn't chosen a language
+  if (path === '/' && !sessionStorage.getItem('lang_chosen')) {
+    var lang = (navigator.language || navigator.userLanguage || 'pt').toLowerCase();
+    if (lang.startsWith('en')) {
+      window.location.replace('/en/');
+    }
+  }
+})();
+</script>
+
 <!-- end custom head snippets -->

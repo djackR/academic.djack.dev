@@ -1,0 +1,9 @@
+main:
+  - title: "CV"
+    url: /en/cv/
+
+  - title: "Projects"
+    url: /en/projects/
+
+  - title: "Blog"
+    url: /year-archive/

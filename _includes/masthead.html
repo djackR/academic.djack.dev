@@ -7,7 +7,12 @@
         <button><span class="navicon"></span></button>
         <ul class="visible-links">
           <li class="masthead__menu-item masthead__menu-item--lg persist"><a href="{{ base_path }}/">{{ site.title }}</a></li>
-          {% for link in site.data.navigation.main %}
+          {% if page.lang == 'en' %}
+            {% assign nav_links = site.data.navigation-en.main %}
+          {% else %}
+            {% assign nav_links = site.data.navigation.main %}
+          {% endif %}
+          {% for link in nav_links %}
             {% if link.url contains 'http' %}
               {% assign domain = '' %}
             {% else %}
@@ -15,6 +20,11 @@
             {% endif %}
             <li class="masthead__menu-item"><a href="{{ domain }}{{ link.url }}">{{ link.title }}</a></li>
           {% endfor %}
+          <li id="lang-switch" class="masthead__menu-item persist tail">
+            <a role="button" id="lang-toggle" title="Switch language">
+              <script>document.write(window.location.pathname.startsWith('/en') ? 'PT' : 'EN')</script>
+            </a>
+          </li>
           <li id="theme-toggle" class="masthead__menu-item persist tail">
             <a role="button" aria-labelledby="theme-icon"><i id="theme-icon" class="fa-solid fa-sun" aria-hidden="true" title="toggle theme"></i></a>
           </li>

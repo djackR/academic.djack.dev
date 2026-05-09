@@ -16,4 +16,23 @@
     await mermaid.run({querySelector:'code.language-mermaid'});
 </script>
 
+<!-- Language switcher -->
+<script>
+(function() {
+  var toggle = document.getElementById('lang-toggle');
+  if (!toggle) return;
+  toggle.style.cursor = 'pointer';
+  toggle.addEventListener('click', function() {
+    sessionStorage.setItem('lang_chosen', '1');
+    var path = window.location.pathname;
+    if (path.startsWith('/en/')) {
+      window.location.href = path.replace('/en/', '/').replace(/^\/$/, '/');
+    } else {
+      var enPath = '/en' + (path === '/' ? '/' : path);
+      window.location.href = enPath;
+    }
+  });
+})();
+</script>
+
 <!-- end custom footer snippets -->
