@@ -23,11 +23,12 @@
   if (!toggle) return;
   toggle.style.cursor = 'pointer';
   toggle.addEventListener('click', function() {
-    sessionStorage.setItem('lang_chosen', '1');
     var path = window.location.pathname;
     if (path.startsWith('/en/')) {
+      localStorage.setItem('lang_preference', 'pt');
       window.location.href = path.replace('/en/', '/').replace(/^\/$/, '/');
     } else {
+      localStorage.setItem('lang_preference', 'en');
       var enPath = '/en' + (path === '/' ? '/' : path);
       window.location.href = enPath;
     }

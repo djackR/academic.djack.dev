@@ -18,8 +18,7 @@
 <script>
 (function() {
   var path = window.location.pathname;
-  // Only redirect on root page, and only if user hasn't chosen a language
-  if (path === '/' && !sessionStorage.getItem('lang_chosen')) {
+  if (path === '/' && !localStorage.getItem('lang_preference')) {
     var lang = (navigator.language || navigator.userLanguage || 'pt').toLowerCase();
     if (lang.startsWith('en')) {
       window.location.replace('/en/');
