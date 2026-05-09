@@ -8,7 +8,7 @@ lang: en
 
 ### From Cape Verde to Brazil: my journey
 
-Cape Verdean, born on the land of [morabeza][1], island of Sao Vicente. From an early age, I was always curious and passionate about understanding how things work — from the electricity in homes to the most complex systems that drive the modern world. This interest led me to study Electrical Engineering at the Industrial and Commercial School of Mindelo – Guilherme Dias Chantre (EICM-GDC), where I had my first contact with the world of technology and engineering.
+Cape Verdean, born on the land of [morabeza][1], island of Sao Vicente. From an early age, I was always curious and passionate about understanding how things work — from the electricity in homes to the most complex systems that drive the modern world. This interest led me to pursue an Electrical Technician diploma at the Industrial and Commercial School of Mindelo – Guilherme Dias Chantre (EICM-GDC), where I had my first contact with the world of technology and engineering.
 
 After completing my technical degree, I enrolled at the University of Cape Verde (Uni-CV) to study Electrical Engineering. However, my journey took a new direction in 2013, when I was awarded a scholarship to study Energy Engineering at the Federal University of Santa Catarina (UFSC) in Brazil. It was a major turning point, both personal and academic, that motivated me to take on the challenge of living in a new country, with a new culture, and reinvent myself.
 
