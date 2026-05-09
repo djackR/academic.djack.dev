@@ -12,7 +12,7 @@ lang: en
 
 * Architected and executed migration of high-volume event-driven workloads from AWS Lambda to EKS, reducing cloud costs by 83% while improving scalability and operational control.
 
-### Self-hosted GitHub Actions Runners on AWS (2026)
+### Self-hosted GitHub Actions Runners on AWS (2024)
 *EKS, GitHub Actions, AWS, CI/CD*
 
 * Designed and deployed self-hosted runner infrastructure on AWS, reducing CI/CD pipeline execution time from hours to approximately 15 minutes for distributed engineering teams.
