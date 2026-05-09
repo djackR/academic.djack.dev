@@ -8,7 +8,7 @@
 
 # Site Settings
 locale                   : "pt"
-title                    : "MSc. Eng. Djack"
+title                    : "Djack | SRE & Platform Engineer"
 title_separator          : "-"
 name                     : &name "Juary Costa Rocha"
 description              : &description "Be happy"
@@ -87,7 +87,7 @@ analytics:
 author:
   name             : "Juary Costa Rocha"
   avatar           : "updade_perfil.jpeg"
-  bio              : "Mestre Ciência da Computação (UFPel), Engenheiro de Energia (UFSC). Técnico em eletrotécnica (EICM-GDC). Membro de Lab. Sistemas de Conhecimento (LSC)"
+  bio              : "SRE Tech Lead | AWS & Kubernetes | Platform Engineering | M.Sc. Computer Science (UFPel)"
   location         : "Planet Earth"
   employer         :
   pubmed           :
