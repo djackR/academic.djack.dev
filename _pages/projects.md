@@ -11,15 +11,15 @@ author_profile: true
 
 * Architected and executed migration of high-volume event-driven workloads from AWS Lambda to EKS, reducing cloud costs by 83% while improving scalability and operational control.
 
+### Learning Analytics Infrastructure Platform (2025)
+*Distributed Systems, Data Engineering*
+
+* Implementação da infraestrutura cloud para plataforma educacional de predição de risco acadêmico, com foco em sistemas distribuídos e interoperabilidade.
+
 ### Self-hosted GitHub Actions Runners on AWS (2024)
 *EKS, GitHub Actions, AWS, CI/CD*
 
 * Designed and deployed self-hosted runner infrastructure on AWS, reducing CI/CD pipeline execution time from hours to approximately 15 minutes for distributed engineering teams.
-
-### Learning Analytics Infrastructure Platform (2025)
-*Distributed Systems, Data Engineering*
-
-* Developed scalable educational data platform focused on interoperability, distributed systems, and academic risk prediction infrastructure.
 
 ---
 
