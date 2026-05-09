@@ -9,58 +9,58 @@ redirect_from:
 
 {% include base_path %}
 
-Experience
+Experiência
 ======
 
-**V360 — SRE Tech Lead** (Jan 2026 – Present) *Remote*
-* Leading SRE initiatives focused on reliability, observability, automation, and operational excellence for mission-critical systems
-* Responsible for maintaining SLA/SLO targets, ensuring web latency below 500ms and queue processing below 30 seconds
-* Managed production-grade EKS and ECS environments supporting critical services and distributed engineering teams
-* Led infrastructure cost optimization by migrating workloads from AWS Lambda to Kubernetes, reducing monthly cloud costs by 83% (from USD 7k to USD 1.2k)
-* Designed and maintained self-hosted GitHub Actions runners on AWS, reducing CI/CD pipeline execution time from hours to approximately 15 minutes
-* Implemented observability solutions, operational dashboards, and alerting systems using CloudWatch and OpenSearch
-* Led IAM Identity Center integration and Keycloak deployment on Kubernetes for centralized authentication and access governance
-* Supported incident response, root cause analysis (RCA), and troubleshooting of high-availability distributed systems
+**V360 — SRE Tech Lead** (Jan 2026 – Presente) *Remoto*
+* Liderança de iniciativas de SRE com foco em confiabilidade, observabilidade, automação e excelência operacional para sistemas mission-critical
+* Responsável pela manutenção de targets de SLA/SLO, garantindo latência web abaixo de 500ms e processamento de filas abaixo de 30 segundos
+* Gerenciamento de ambientes EKS e ECS em produção, suportando serviços críticos e times de engenharia distribuídos
+* Liderança na otimização de custos de infraestrutura migrando workloads de AWS Lambda para Kubernetes, reduzindo custos mensais de cloud em 83% (de USD 7k para USD 1.2k)
+* Projeto e manutenção de runners self-hosted do GitHub Actions na AWS, reduzindo tempo de execução de pipelines CI/CD de horas para aproximadamente 15 minutos
+* Implementação de soluções de observabilidade, dashboards operacionais e sistemas de alertas usando CloudWatch e OpenSearch
+* Liderança na integração do IAM Identity Center e deploy de Keycloak em Kubernetes para autenticação centralizada e governança de acesso
+* Suporte a resposta a incidentes, análise de causa raiz (RCA) e troubleshooting de sistemas distribuídos de alta disponibilidade
 
-**V360 — Cloud Engineer (Mid-level)** (Jan 2025 – May 2026) *Remote*
-* Led infrastructure modernization by migrating workloads from AWS Elastic Beanstalk to ECS, including Docker containerization and cloud-native infrastructure design
-* Optimized platform performance, reducing web application latency from approximately 1.5s to 600ms through architectural and infrastructure improvements
-* Redesigned queue processing architecture by splitting monolithic workers into multiple dedicated services, significantly improving scalability and operational latency
-* Executed PostgreSQL major version upgrades (v14 to v17) in production environments with minimal downtime and validated disaster recovery readiness
-* Performed PostgreSQL backup recovery validation and disaster recovery testing to ensure operational reliability
-* Implemented automation and CI/CD improvements using GitHub Actions and self-hosted runners on AWS
+**V360 — Cloud Engineer (Pleno)** (Jan 2025 – Mai 2026) *Remoto*
+* Liderança na modernização de infraestrutura migrando workloads de AWS Elastic Beanstalk para ECS, incluindo containerização Docker e design de infraestrutura cloud-native
+* Otimização de performance da plataforma, reduzindo latência de aplicações web de aproximadamente 1.5s para 600ms através de melhorias arquiteturais e de infraestrutura
+* Redesign da arquitetura de processamento de filas, dividindo workers monolíticos em múltiplos serviços dedicados, melhorando significativamente a escalabilidade e latência operacional
+* Execução de upgrades de versões major do PostgreSQL (v14 para v17) em ambientes de produção com downtime mínimo e validação de disaster recovery
+* Validação de backup e recuperação do PostgreSQL e testes de disaster recovery para garantir confiabilidade operacional
+* Implementação de automação e melhorias de CI/CD usando GitHub Actions e runners self-hosted na AWS
 
-**V360 — Cloud Engineer (Junior) & IT Infrastructure Intern** (Nov 2022 – Jan 2025) *Remote*
-* Supported AWS production operations, deployment automation, infrastructure monitoring, and cloud environment maintenance
-* Assisted with CloudWatch monitoring setup, operational support, and infrastructure reliability initiatives
+**V360 — Cloud Engineer (Júnior) & Estagiário de Infraestrutura** (Nov 2022 – Jan 2025) *Remoto*
+* Suporte a operações de produção AWS, automação de deploy, monitoramento de infraestrutura e manutenção de ambientes cloud
+* Auxílio na configuração de monitoramento com CloudWatch, suporte operacional e iniciativas de confiabilidade de infraestrutura
 
-Education
+Formação
 ======
-* **M.Sc. in Computer Science** — Federal University of Pelotas (UFPel), 2022 – 2025
-* **B.Eng. in Energy Engineering** — Federal University of Santa Catarina (UFSC), 2013 – 2021
+* **M.Sc. em Ciência da Computação** — Universidade Federal de Pelotas (UFPel), 2022 – 2025
+* **Eng. em Engenharia de Energia** — Universidade Federal de Santa Catarina (UFSC), 2013 – 2021
 
-Technical Skills
+Habilidades Técnicas
 ======
-* **Cloud & Orchestration:** AWS (EKS, ECS, EC2, Lambda, RDS, OpenSearch, Route53, WAF, IAM Identity Center, VPC, CloudWatch), Kubernetes, Docker
-* **Monitoring & Reliability:** CloudWatch, OpenSearch, Observability, Incident Response, SLA/SLO, PostgreSQL, Redis
-* **CI/CD & Automation:** GitHub Actions, Self-hosted Runners, Infrastructure Automation
-* **Programming & Scripting:** Bash, Ruby, Python, SQL
-* **Systems & Security:** Linux, IAM Identity Center, Keycloak, Secrets Management
-* **Concepts:** SRE, Platform Engineering, High Availability, Distributed Systems, Operational Excellence
+* **Cloud & Orquestração:** AWS (EKS, ECS, EC2, Lambda, RDS, OpenSearch, Route53, WAF, IAM Identity Center, VPC, CloudWatch), Kubernetes, Docker
+* **Monitoramento & Confiabilidade:** CloudWatch, OpenSearch, Observabilidade, Resposta a Incidentes, SLA/SLO, PostgreSQL, Redis
+* **CI/CD & Automação:** GitHub Actions, Self-hosted Runners, Automação de Infraestrutura
+* **Programação & Scripting:** Bash, Ruby, Python, SQL
+* **Sistemas & Segurança:** Linux, IAM Identity Center, Keycloak, Gerenciamento de Secrets
+* **Conceitos:** SRE, Platform Engineering, Alta Disponibilidade, Sistemas Distribuídos, Excelência Operacional
 
-Certifications
+Certificações
 ======
 * AWS Educate – Introduction to Cloud
 * Google Cloud Computing Foundations
 * Practical Data Science
 
-Languages
+Idiomas
 ======
-* **Portuguese:** Native
-* **English:** Professional Working Proficiency
-* **Spanish:** Limited Working Proficiency
+* **Português:** Nativo
+* **Inglês:** Proficiência Profissional
+* **Espanhol:** Proficiência Básica
 
-Publications
+Publicações
 ======
   <ul>{% for post in site.publications reversed %}
     {% include archive-single-cv.html %}
