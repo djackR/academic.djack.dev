@@ -4,6 +4,7 @@ title: "My Journey"
 excerpt: "From Cape Verde to Brazil"
 author_profile: true
 lang: en
+uid: history
 ---
 
 ### From Cape Verde to Brazil: my journey

@@ -2,6 +2,7 @@
 title: 'Managing Secrets with SOPS: KMS, GCP and GPG'
 date: 2026-05-09
 permalink: /en/posts/2026/05/managing-secrets-sops/
+uid: sops-secrets
 tags:
   - devops
   - security

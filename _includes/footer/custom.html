@@ -24,13 +24,27 @@
   toggle.style.cursor = 'pointer';
   toggle.addEventListener('click', function() {
     var path = window.location.pathname;
-    if (path.startsWith('/en/')) {
-      localStorage.setItem('lang_preference', 'pt');
-      window.location.href = '/';
-    } else {
-      localStorage.setItem('lang_preference', 'en');
-      window.location.href = '/en/';
-    }
+    var isEn = path.startsWith('/en/');
+    var targetLang = isEn ? 'pt' : 'en';
+    localStorage.setItem('lang_preference', targetLang);
+
+    fetch('/translations.json')
+      .then(function(r) { return r.json(); })
+      .then(function(map) {
+        for (var uid in map) {
+          var currentLang = isEn ? 'en' : 'pt';
+          if (map[uid][currentLang] && map[uid][currentLang].replace(/\/$/, '') === path.replace(/\/$/, '')) {
+            if (map[uid][targetLang]) {
+              window.location.href = map[uid][targetLang];
+              return;
+            }
+          }
+        }
+        window.location.href = targetLang === 'en' ? '/en/' : '/';
+      })
+      .catch(function() {
+        window.location.href = targetLang === 'en' ? '/en/' : '/';
+      });
   });
 })();
 </script>

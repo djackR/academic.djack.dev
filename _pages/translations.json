@@ -1,0 +1,17 @@
+---
+permalink: /translations.json
+layout: null
+---
+{
+{%- assign all_pages = site.pages | concat: site.posts -%}
+{%- assign with_uid = all_pages | where_exp: "p", "p.uid" -%}
+{%- assign uids = with_uid | map: "uid" | uniq -%}
+{%- for uid in uids -%}
+  {%- assign pages_for_uid = with_uid | where: "uid", uid -%}
+  "{{ uid }}": {
+    {%- for p in pages_for_uid -%}
+      "{{ p.lang | default: 'pt' }}": "{{ p.url }}"{% unless forloop.last %},{% endunless %}
+    {%- endfor -%}
+  }{% unless forloop.last %},{% endunless %}
+{%- endfor -%}
+}

@@ -3,6 +3,8 @@ permalink: /history/
 title: "Minha Trajetória"
 excerpt: "De Cabo Verde ao Brasil"
 author_profile: true
+uid: history
+lang: pt
 ---
 
 ### De Cabo Verde ao Brasil: minha trajetória

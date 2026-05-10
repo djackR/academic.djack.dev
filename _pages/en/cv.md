@@ -4,6 +4,7 @@ title: "CV"
 permalink: /en/cv/
 author_profile: true
 lang: en
+uid: cv
 ---
 
 {% include base_path %}

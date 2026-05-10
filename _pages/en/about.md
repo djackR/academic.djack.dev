@@ -4,6 +4,7 @@ title: "Whoami"
 excerpt: "About me"
 author_profile: true
 lang: en
+uid: about
 ---
 
 ### SRE Tech Lead & Platform Engineer

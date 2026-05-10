@@ -3,6 +3,8 @@ layout: archive
 title: " "
 permalink: /projects/
 author_profile: true
+uid: projects
+lang: pt
 ---
 ## Infrastructure & Platform Engineering
 

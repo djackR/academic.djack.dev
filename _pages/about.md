@@ -3,6 +3,8 @@ permalink: /
 title: "Whoami"
 excerpt: "About me"
 author_profile: true
+uid: about
+lang: pt
 redirect_from:
   - /about/
   - /about.html

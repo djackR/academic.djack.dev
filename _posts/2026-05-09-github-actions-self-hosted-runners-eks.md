@@ -1,6 +1,7 @@
 ---
 title: 'GitHub Actions Self-Hosted Runners no EKS com ARC'
 lang: pt
+uid: github-actions-arc-eks
 date: 2026-05-09
 permalink: /posts/2026/05/github-actions-self-hosted-runners-eks/
 tags:

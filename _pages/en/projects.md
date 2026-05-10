@@ -4,6 +4,7 @@ title: " "
 permalink: /en/projects/
 author_profile: true
 lang: en
+uid: projects
 ---
 ## Infrastructure & Platform Engineering
 
