@@ -26,11 +26,10 @@
     var path = window.location.pathname;
     if (path.startsWith('/en/')) {
       localStorage.setItem('lang_preference', 'pt');
-      window.location.href = path.replace('/en/', '/').replace(/^\/$/, '/');
+      window.location.href = '/';
     } else {
       localStorage.setItem('lang_preference', 'en');
-      var enPath = '/en' + (path === '/' ? '/' : path);
-      window.location.href = enPath;
+      window.location.href = '/en/';
     }
   });
 })();
