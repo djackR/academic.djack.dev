@@ -288,7 +288,7 @@ helm install "$INSTALLATION_NAME" \
     oci://ghcr.io/actions/actions-runner-controller-charts/gha-runner-scale-set
 ```
 
-> **Dica:** Para não deixar o `GITHUB_PAT` em texto plano, use [SOPS](https://github.com/getsops/sops) com AWS KMS para criptografar seus arquivos de secrets. Isso merece um post dedicado — em breve.
+> **Dica:** Para não deixar o `GITHUB_PAT` em texto plano, use [SOPS](/posts/2026/05/gerenciando-secrets-sops/) com AWS KMS para criptografar seus arquivos de secrets.
 
 ---
 
