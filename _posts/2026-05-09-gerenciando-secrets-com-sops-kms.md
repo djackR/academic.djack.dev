@@ -20,6 +20,8 @@ Sexta-feira, 17h. Você termina aquela feature, roda um `git add .` satisfeito, 
 
 Se voce ja viveu isso (ou vive com medo de viver), o **SOPS** e para voce. Ele permite commitar seus arquivos de secrets **criptografados** direto no repositorio. Sem medo. Sem incidente. Sem sexta-feira arruinada.
 
+> **Atualização (novembro/2026):** para os segredos que ficam só na sua máquina, existe uma alternativa ao KMS: a chave do SOPS dentro do chip TPM, com PIN. Mostro como configurar e onde procurar rastros de segredos esquecidos na máquina em [Faxina de Segredos no Notebook](/posts/2026/11/faxina-segredos-notebook/).
+
 ---
 
 ## O Problema
@@ -514,3 +516,4 @@ Para projetos que já estão na AWS, é a forma mais simples de sair do `.env` e
 - [SOPS Documentation](https://getsops.io/)
 - [AWS KMS Developer Guide](https://docs.aws.amazon.com/kms/latest/developerguide/)
 - [age encryption](https://github.com/FiloSottile/age)
+- [Faxina de Segredos no Notebook: SOPS com TPM, Cofre e Agentes de IA](/posts/2026/11/faxina-segredos-notebook/): continuação deste post, com a chave do SOPS dentro do chip TPM e PIN
